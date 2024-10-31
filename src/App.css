@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whole-drum {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 20px auto;
+  width: max-content
+}
+
+.drum-pad {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.264);
+}
